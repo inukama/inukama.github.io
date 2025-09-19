@@ -46,3 +46,7 @@ ignoreFiles = [
     back_home_text = ".."
     date_format = "02-01-2006"
     isListGroupByDate = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
