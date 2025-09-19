@@ -1,4 +1,4 @@
 
 
 **Share your thoughts**
-inuka.amaratunga (at) gmail
+inuka (dot) amaratunga (at) gmail
