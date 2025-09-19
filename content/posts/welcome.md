@@ -4,8 +4,7 @@ draft = false
 title = 'Welcome'
 +++
 
-Welcome to my blog. This is a collection of my thoughts on various topics.
+Welcome to my blog. I am writing this blog in the hopes that my writing will resonate with others. If you have thoughts to share, please don't be afraid to write to me (via email)! 
 
-Here's a song I like:
-
+I haven't played the game much, but here's a song I like:
 {{< youtube id=-6FXeupOp04 >}}
