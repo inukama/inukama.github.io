@@ -1,0 +1,39 @@
+:root {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color-scheme: light dark;
+    background-color: light-dark(white, #111111);
+    color: light-dark(#111111, white);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 3em;
+    font-style: italic;
+}
+
+p {
+    font-weight: 100;
+    font-size: 1.15em;
+}
+
+#content {
+    margin: auto;
+    padding: 1em;
+    /* border: 1px solid red; */
+}
+
+@media (orientation: portrait) {
+    #content {
+        font-size: xx-large;
+        width: 90%;
+    }
+}
+
+
+@media (orientation: landscape) {
+    #content {
+        font-size: medium;
+        width: 35%;
+    }
+}
