@@ -125,7 +125,7 @@ void main() {
   // Sphere centre
   vec3 c = vec3(0.0, 0.0, 3.0);
   // Radius of sphere
-  float r = 0.6;
+  float r = 1.0;
   // Direction of lighting
   
   // Array of lights (light(direction, colour))
@@ -151,8 +151,10 @@ void main() {
     col += lights[i].c*a;
   }
 
+  float fade_in = 1.0/(1.0+exp(-(4.0*uTime-4.0)));
+
   // Output to screen
-  glFragColor = vec4(col, col.x);
+  glFragColor = vec4(col, col.x) * fade_in;
   //glFragColor = vec4(col, 0.0);
 }
   `

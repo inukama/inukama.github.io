@@ -25,6 +25,10 @@ canvas {
     display: block;
 }
 
+#header {
+    height: 100px;
+}
+
 #content {
     margin: auto;
     padding: 1em;
