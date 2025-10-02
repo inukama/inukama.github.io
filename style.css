@@ -17,6 +17,14 @@ p {
     font-size: 1.15em;
 }
 
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #content {
     margin: auto;
     padding: 1em;
